@@ -4,7 +4,6 @@ import SearchForm from './components/SearchForm'
 import Results from './components/Results'
 import Menu from './components/Menu'
 
-
 class App extends Component {
   render() {
     return (
