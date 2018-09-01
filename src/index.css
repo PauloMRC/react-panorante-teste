@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url(background.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.header {
+  align-items:  center;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(6, 1 fr);
+  grid-auto-rows: 60px;
+  grid-gap: 25px;
+  grid-template-areas: 
+    ". a b b c .";
+  align-content: space-between;
+}
+
+.logo:nth-child(1) {
+  grid-area: a;
+}
+
+.menu:nth-child(2) {
+  grid-area: b;
+  font-size: 80%;
+}
+
+.login:nth-child(3) {
+  grid-area: c;
+}
+
+.buscar {
+  text-align: center;
+  color: rgb(15, 80, 200);
+  font-size: 200%;
+  font-family: Calibri, sans-serif, Courier;
+}
+
+.slogan {
+  text-align: center;
+  color: white;
+  font-size: 200%;
+  font-family: Calibri, sans-serif, Courier;
+}
+
+nav a{
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  }
+  
+  .img-class
+  {
+   float: left;
+   margin-right: 15px;
+   opacity: 0.7;
+  }
+  
+  .collapse
+  {
+      width: 700px;
+  }
+  
+  .li
+  {
+       float: left;
+       margin: 5px;
+  }
+  
+  .header.nav.item.logo.container {
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+  height: 100%;
+  }
+  
+  nav.navbar.navbar-default {
+  background: transparent;
+  border: none;
+  width: 80%;
+  margin: 0 auto;
+  }
